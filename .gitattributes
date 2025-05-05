@@ -1,0 +1,11 @@
+# Tell GitHub that Dart is the primary language
+*.dart linguist-language=Dart
+
+# Ignore CMake files from being counted
+CMakeLists.txt linguist-vendored
+*.cmake linguist-vendored
+
+# Ignore Android, iOS, and build folders (optional)
+android/** linguist-vendored
+ios/** linguist-vendored
+build/** linguist-vendored
